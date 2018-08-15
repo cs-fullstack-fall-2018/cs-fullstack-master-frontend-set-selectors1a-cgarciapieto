@@ -1,3 +1,28 @@
+
+
+var h1Tag = document.getElementsByTagName("h1");
+h1Tag[0].style.color = "#9b59b6";
+
+var h2Tag = document.getElementsByTagName("h2");
+for (var i = 0; i<h2Tag.length; i++)
+{
+    h2Tag[i].style.color = "orange";
+}
+
+var liTag = document.getElementsByTagName("li");
+for (var x = 0; x<liTag.length; x++)
+{
+    liTag[x].style.color = "blue";
+
+}
+
+var ptags = document.getElementsByTagName("p");
+for (var y = 0; y<ptags.length; y++)
+{
+    ptags[y].style.backgroundColor = "yellow";
+}
+
+
 /* Style the HTML elements according to the following instructions.
 DO NOT ALTER THE EXISTING HTML TO DO THIS.  WRITE ONLY CSS!
 */
